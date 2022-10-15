@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="icon" href="assets/image/bookshelf.png" type="image/icon type">
+  <title>Hana Bookshelf Management</title>
+  <div class="banner">
+    <span><a class="banner-text">Hana Bookshelf Management</a></span>
+    <span><a class="banner-submenu-sub-text" id="initUser">Hello</a></span>
+  </div>
+</head>
+<main>
+  <body>
+    <div id="content">
+      <article id="input_new_book" class="card">
+        <h2>Input new book</h2>
+        <hr>
+        <form id="bookData" class="form" action="#">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="input_title" name="title" placeholder="Book Title ex: Tom and Jerry" required>
+            </div>
+            <div class="form-group">
+              <label for="writer">Writer</label>
+              <input type="text" id="input_writer" name="writer" placeholder="Book Writer ex: William Hanna" required>
+            </div>
+            <div class="form-group">
+              <label for="year">Year</label>
+              <input type="number" id="input_year" name="year" pattern="/^-?\d+\.?\d*$/" onKeyPress="if (this.value.length == 4) {return false} else {return true};" placeholder="Book Release Year ex: 1970" required>
+            </div>
+            <div class="form-group-v2">
+              <input type="checkbox" id="input_check" name="check"> &nbsp; &nbsp;
+              <label for="check">Done reading</label>
+            </div>
+            <br>
+            <input type="submit" value="Input new book to unread bookshelf" name="NewBook_Submit" class="downloadCard">
+        </form>
+      </article>
+      <article class="card">
+        <h2>Find book</h2>
+        <hr>
+        <form class="form" id="findData">
+            <div class="form-group-v3">
+              <label for="keyword-search" class="form-group-v3-input">Keyword</label>&nbsp;&nbsp;
+              <input type="text" id="keyword-search" name="keyword-search" style="width:85%" placeholder="Find your book here!" required><input type="submit" value="Find" name="FindBook_Submit" class="form-group-v3-card">
+            </div>
+            <br>
+          <div id="findBookHead"></div>
+          <div id="findBook"></div>  
+        </form>
+      </article>
+    </div>
+    <aside class="aside-card-base">
+      <section id="unread_new_book" class="aside-card">
+        <h2>Unfinished Book</h2>
+        <hr>
+        <div id="unread_book"></div>
+      </section>
+      <section id="read_new_book" class="aside-card-v2">
+        <h2>Finished Book</h2>
+        <hr>
+        <div id="read_book"></div>
+      </section>
+    </aside>
+    <script src="assets/js/BookshelfInit.js"></script>
+    <script src="assets/js/BookshelfMain.js"></script>
+  </body>
+</main>
+<footer>
+  <hr>
+  <br>
+  &copy; 2016 - 2022, HANA-CI Build Project || Hana Bookshelf Management - v1.0-20221013
+</footer>
+</html>

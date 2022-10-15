@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    box-sizing: border-box;
+  }
+aside {
+    float: right;
+    overflow: hidden;
+    width: 45%;
+}
+body {
+    background-color: #161B21;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;	
+    padding: 0px;
+}
+footer {
+    background-color: #161B21;
+    color: #F4A950;
+    display: inline-block;
+    font-weight: bold;
+    height: fit-content;
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: #F4A950;
+    font-weight: bold;
+    text-align: center;
+}
+hr {
+    border-color: #DBDBDB;
+}
+#content {
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    width:50%;
+}
+.aside-card {
+    border-color: #F4A950;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.aside-card-base {
+    background-color: #161B21;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.aside-card-v2 {
+    background-color: #161B21;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.banner {
+    background-color: #F4A950;
+    color: #161B21; 
+    display: inline;
+    overflow: hidden;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+.banner-text {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.banner-submenu-sub-text {
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.card {
+    border-color: #F4A950;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.downloadCard {
+    background-color: #161B21;
+    border-color: #F4A950;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #F4A950;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+    padding: 20px;
+    width: auto;
+}
+.downloadImage {
+    float: left;
+    height: 32px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-group label {
+    color:  #F4A950;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.form-group-v2 {
+    display: flex;
+}
+.form-group-v2 label {
+    color:  #F4A950;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.form-group-v3 {
+    display: flex;
+}
+.form-group-v3-card {
+    background-color: #161B21;
+    border-color: #F4A950;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #F4A950;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    width: 15%;
+}
+.form-group-v3-input {
+    color:  #F4A950;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.found-book {
+    background-color: #F4A950;
+    border-color: #161B21;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #161B21;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    width: auto;
+}
+.spanDownload {
+    color: #161B21;
+    float:left;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.unfinished-book {
+    background-color: #161B21;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.unfinished-book, .unfinished-book-v2 label {
+    color:#F4A950;
+    font-size: 15px;
+    font-weight: normal;
+}
+.unfinished-book-temp {
+    background-color: #161B21;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.unfinished-book-v2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.unfinished-book-v2-card {
+    background-color: #F4A950;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    width: auto;
+}
+.unfinished-book-v3-card {
+    background-color: #F4A950;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: fit-content;
+    padding: 10px;
+    width: fit-content;
+}
+.unfinished-book-v3-card-reverse {
+    background-color: #F4A950;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #161B21;
+    display: inline-block;
+    font-size: 15px;
+    height: fit-content;
+    margin-top: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+.unfinished-book-v2-card:hover, .unfinished-book-v3-card:hover,
+.found-book:hover,.form-group-v3-card:hover, .downloadCard:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
