@@ -22,7 +22,7 @@ Pada submission ini membuat website sederhana dengan beberapa kriteria sebagai b
 
 ## Preview
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Nicklas373/DicodingBMFEWUB/master/snap.png" width="640px">
+    <img src="https://raw.githubusercontent.com/Nicklas373/DicodingBMFEWUB/master/Snap.png" width="640px">
 </div>
 
 # HANA-CI Build Project || 2016-2022
